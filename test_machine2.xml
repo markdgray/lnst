@@ -1,0 +1,15 @@
+<slavemachine>
+	<params>
+		<param name="hostname" value="<HOSTNAME>"/>
+		<param name="rpc_port" value="9999"/>
+	</params>
+	<interfaces>
+	    <eth label="A" id="1">
+		<params>
+			<param name="hwaddr" value="<MAC-ADDRESS>"/>
+			<param name="driver" value="lnst"/>
+		</params>
+	    </eth>
+	</interfaces>
+</slavemachine>
+
